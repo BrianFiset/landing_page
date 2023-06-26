@@ -122,3 +122,29 @@ li {
     color: grey;
     text-align: center;
 }
+
+/* Quote Section */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-color: #e5e7eb;
+    padding: 0 315px;
+}
+
+.quote-container > .quote {
+    font-weight: lighter;
+    align-self: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-container > .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1f2937;
+}
