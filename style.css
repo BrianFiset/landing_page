@@ -148,3 +148,38 @@ li {
     font-size: 24px;
     color: #1f2937;
 }
+
+/* Sign up Section */
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.sign-up-section > .container {
+    background-color: #3882f6;
+    border-radius: 16px;
+    height: 150px;
+    width: 1000px;
+    padding: 16px;
+    color: #e5e7eb;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up-section .text {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.sign-up-section .button {
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 2px #e5e7eb;
+    padding: 6px 32px;
+    border-radius: 8px;
+}
