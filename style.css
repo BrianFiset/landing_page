@@ -183,3 +183,15 @@ li {
     padding: 6px 32px;
     border-radius: 8px;
 }
+
+/* Footer Section */
+
+footer {
+    background-color: #1f2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+}
